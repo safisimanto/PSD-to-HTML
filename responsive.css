@@ -1,0 +1,48 @@
+
+
+
+@media screen and (max-width:580px){
+    header .logo{
+        width: 44%;
+        float: left;
+        overflow: hidden;
+        padding: 0 3%;
+    }
+    header img {
+        width: 30%;
+    
+    }
+
+    header .menu{
+        display: none;
+    
+    }
+    .bar {
+        display: block;
+        font-size: 20px;
+    }
+
+    .one .a{
+        flex: 100%;
+        padding-bottom: 10px;
+    }
+
+    .one .b{
+        flex: 100%;
+    
+    }
+
+    .one{
+        padding: 10px 0;
+    }
+    .two .a{
+        flex: 100%;
+        padding: 5px 0;
+    
+    }
+
+    .two .b{
+        flex: 100%;
+        padding: 5px 0;
+    }
+}

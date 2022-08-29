@@ -1,0 +1,386 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    background-color: darkgray;
+    min-height: 600px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+header .extra{
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+header .logo{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    padding: 0 3%;
+}
+
+header img {
+    width: 16%;
+
+}
+
+.mobile{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    display: none;
+    transition: 2s;
+}
+.mobile ul {
+    list-style: none;
+}
+
+.mobile ul li {
+    float: none;
+    padding: 1px;
+}
+
+
+.mobile ul li a {
+    text-decoration: none;
+    float: none;
+    display: block;
+    padding: 10px 10px;
+    background: #ce74ab;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bar {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.bar:hover .mobile {
+    display: block;
+    transition: 2s;
+}
+
+
+header .menu{
+    width: 70%;
+    overflow: hidden;
+
+}
+
+header > .menu > ul {
+    list-style: none;
+
+}
+
+header > .menu > ul > li {
+    float: left;
+}
+
+header > .menu > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #080808;
+    display: block;
+    padding: 17px 25px;
+
+}
+header > .menu > ul > li:hover a{
+    background-color: #30b16a;
+    color: #FFFFFF;
+}
+
+        /* header area end */
+
+
+
+
+        /* content area  */
+
+.content{
+    width: 100%;
+    background-color: rgb(211, 184, 
+    148);
+    min-height: 600px;
+    
+}
+
+.one{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 5% ;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.one .a{
+    width: 41%;
+    padding: 0 2%;
+
+}
+
+.one .a .submit{
+    background-color: rgb(110, 250, 203);
+    border: 5px solid rgb(109, 248, 202) ;
+    border-radius: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.one .b{
+    width: 55%;
+}
+.one .b img{
+    width: 70%;
+}
+
+.two{
+    width: 100%;
+    background-color: #f0eaea;
+    padding-top: 5% ;
+    margin: 0px;
+    display: flex;
+    height: 400px;
+}
+
+
+.two .a{
+    width: 41%;
+    padding: 6% 2%;
+
+}
+
+.two .a .submit{
+    background-color: rgb(110, 250, 203);
+    border: 5px solid rgb(109, 248, 202) ;
+    border-radius: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.two .b{
+    width: 55%;
+}
+.two .b img{
+    width: 70%;
+}
+
+.three{
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 5% ;
+    padding-bottom: 2%;
+
+}
+
+.three .three-in{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.three .three-in .a{
+    width: 30%;
+}
+
+.three .three-in .b{
+    width: 30%;
+    padding: 0 5%;
+}
+
+.three .three-in .c{
+    width: 30%;
+}
+
+.three .three-in img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+.five{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 5% ;
+    margin: 0px;
+    display: flex;
+    height: 350px;
+}
+
+
+.five .a{
+    width: 55%;
+    padding: 0 2%;
+}
+.five .a img{
+    width: 70%;
+    padding: 0 5%;
+}
+
+.five .b{
+    width: 41%;
+
+}
+
+.five .b .submit{
+    background-color: rgb(110, 250, 203);
+    border: 5px solid rgb(109, 248, 202) ;
+    border-radius: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.six{
+    width: 100%;
+    background-color: #f0eaea;
+    padding-top: 5% ;
+    margin: 0px;
+    display: flex;
+    height: 400px;
+}
+
+
+.six .a{
+    width: 41%;
+    padding: 6% 2%;
+
+}
+
+.six .a .submit{
+    background-color: rgb(110, 250, 203);
+    border: 5px solid rgb(109, 248, 202) ;
+    border-radius: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.six .b{
+    width: 55%;
+}
+.six .b img{
+    width: 70%;
+}
+
+.saveen{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 5% ;
+    margin: 0px;
+    display: flex;
+    height: 400px;
+}
+
+.saveen .a{
+    width: 49%;
+    margin-right: 2%;
+}
+.saveen .a img{
+    width: 100%;
+}
+
+.saveen .b{
+    width: 49%;
+    background-color: aqua;
+    text-align: center;
+    padding: 150px 0;
+    color: rgb(255, 255, 255);
+
+}
+.saveen .b .submit{
+    color: aqua;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255) ;
+    border-radius: 8px;
+    padding: 2px 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+        /* content area end */
+
+         /* footer area  */
+
+footer{
+    width: 100%;
+    background-color: #161515;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2% 0;
+}
+
+        /* content area end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
